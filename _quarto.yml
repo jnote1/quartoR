@@ -10,7 +10,9 @@ website:
       - about.qmd
       - href: penguin.qmd
         text: "펭귄 강의"
-
+      - href: woncommit.qmd
+        text: "대덕특구"        
+        
 format:
   html:
     theme: cosmo
