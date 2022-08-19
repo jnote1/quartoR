@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>한밭대 - quartoR</title>
+<title>한밭대 - 펭귄 프로젝트</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,13 +136,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./penguin.html">펭귄 강의</a>
+    <a class="nav-link active" href="./penguin.html" aria-current="page">펭귄 강의</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -155,14 +155,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#펭귄-데이터" id="toc-펭귄-데이터" class="nav-link active" data-scroll-target="#펭귄-데이터">펭귄 데이터</a></li>
+  <li><a href="#참석자" id="toc-참석자" class="nav-link" data-scroll-target="#참석자">참석자</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">quartoR</h1>
+<h1 class="title">펭귄 프로젝트</h1>
 </div>
 
 
@@ -176,16 +183,66 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="펭귄-데이터" class="level1">
+<h1>펭귄 데이터</h1>
+<p>펭귄은 남극에 살아요</p>
+<ul>
+<li><p>황제펭귄</p></li>
+<li><p>아델리 펭귄</p></li>
+<li><p>남극펭귄</p></li>
+</ul>
+<p>그래프</p>
+<p>코드</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">rnorm</span>(<span class="dv">100</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="penguin_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>테이블</p>
+<table class="table">
+<caption>펭귄 서식 빈도</caption>
+<thead>
+<tr class="header">
+<th>품종</th>
+<th>서식지</th>
+<th>개체수</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>북극</td>
+<td>한국</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>남극</td>
+<td>제주도</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td>태평양</td>
+<td>남극</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://imgur.com/U1rmpQd.png" class="img-fluid"></p>
+</section>
+<section id="참석자" class="level1">
+<h1>참석자</h1>
+<ul>
+<li>참석자명
+<ul>
+<li>이광춘</li>
+<li>이원일</li>
+<li>신종화</li>
+<li>장명헌</li>
+</ul></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
