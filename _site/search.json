@@ -19,5 +19,12 @@
     "title": "펭귄 프로젝트",
     "section": "",
     "text": "참석자\n\n참석자명\n\n이광춘\n이원일\n신종화\n장명헌"
+  },
+  {
+    "objectID": "iris_graph.html",
+    "href": "iris_graph.html",
+    "title": "iris 프로젝트",
+    "section": "",
+    "text": "Code\nlibrary(tidyverse)\n\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──\n\n\n✔ ggplot2 3.3.5     ✔ purrr   0.3.4\n✔ tibble  3.1.6     ✔ dplyr   1.0.8\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\nCode\niris %>% ggplot(aes(Petal.Length, Petal.Width, color = Species)) + geom_point()"
   }
 ]

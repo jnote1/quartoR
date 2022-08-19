@@ -1,0 +1,19 @@
+---
+title: "iris 프로젝트"
+format: 
+  html:
+    code-fold: true
+---
+
+# iris 그래프도 보자~
+
+```{r}
+library(tidyverse)
+
+iris %>% ggplot(aes(Petal.Length, Petal.Width, color = Species)) + geom_point()
+```
+
+
+```{r}
+1+1
+```

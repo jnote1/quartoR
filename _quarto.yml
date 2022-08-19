@@ -10,6 +10,8 @@ website:
       - about.qmd
       - href: penguin.qmd
         text: "펭귄 강의"
+      - href: iris_graph.qmd
+        text: "아이리스 그래프"
 
 format:
   html:
