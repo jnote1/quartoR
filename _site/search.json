@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "quartoR",
-    "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quartoR",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "penguin.html",
@@ -25,6 +25,12 @@
     "href": "iris_graph.html",
     "title": "iris 프로젝트",
     "section": "",
-    "text": "Code\nlibrary(tidyverse)\n\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──\n\n\n✔ ggplot2 3.3.5     ✔ purrr   0.3.4\n✔ tibble  3.1.6     ✔ dplyr   1.0.8\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\nCode\niris %>% ggplot(aes(Petal.Length, Petal.Width, color = Species)) + geom_point()"
+    "text": ""},
+   {
+    "objectID": "woncommit.html",
+    "href": "woncommit.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "— 대덕테크노밸리 - 대덕테크노밸리는 2000년도 초반 국가적으로 벤처기업을 육성할때 대전의 벤처단지 육성을 위하여 관평동 지역을 테크노밸리로 선포하고 조성되기 시작하였다.\n— 대덕연구개발특구 국가연구소의 연구개발 성과를 사업화하기 위하여 특구로 지정하여 육성 추진하였다.\n— 특성화…"
   }
 ]
